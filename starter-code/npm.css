@@ -1,1 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
 
+ 
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 5px;
+  height: 25px;
+  font-weight: 300;
+  font-size: 10pt;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  position: relative;
+  bottom: 90%;
+  
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.acronym {
+margin-left: 10px;
+}
+
+.heart {
+  padding-left: 5px;
+}
+
+.header{
+  background-color: rgb(32, 101, 136);
+  background-image: url(./images/city-scape.svg);
+  background-size: cover;
+  height: 300px;
+  color: white;
+
+ 
+}
+
+.search-logo {
+  width: 24px;
+  padding: 5px;
+  position: relative;
+  bottom: 5px;
+  right: 0.10%;
+  border: 0.5px solid rgb(73, 114, 136);
+  background-color: rgb(31, 82, 111);
+
+}
+
+.search-bar {
+  width: 77%;
+  margin-left: 5px;
+  position: relative;
+  bottom: 5px;
+  float: left;
+  background-color: rgb(31, 82, 111);
+  padding: 10px;
+  border: 0.5px solid rgb(73, 114, 136);
+}
+
+.npm-logo {
+  width: 85px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bear-section {
+  float: right;
+  position: relative;
+  bottom: 70px;
+}
+
+.bear-logo {
+ width: 40px;
+ float: right;
+ position: relative;
+ margin-right: 6px;
+ top: 6px;
+ 
+}
+
+.bear-text {
+  position: relative;
+  right: 53%;
+  font-size: 10pt;
+  top: 35px;
+  
+}
+
+.amazing-things {
+  width: 400px;
+  margin-left: 15%;
+  margin-top: 20px; 
+}
+
+.amazing-things p {
+  width: 450px;
+  text-align: left;
+  font-size: 12pt;
+}
+
+.button {
+  padding: 7px 22px 7px 22px;
+  border-radius: 20px;
+  font-size: 10pt; 
+  background-color: rgb(240, 146, 51);
+  border: none;
+  margin-top: 20px;
+  color: white;
+}
+
+.collaboration {
+  padding: 50px 0;
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+ 
+
+.collaboration-picture {
+  margin-left: 20%; 
+  width: 450px;
+}
+
+.collaboration-text {
+  float: right;
+  position: relative;
+  right: 7%;
+  margin-top: 20px;
+}
+
+.collaboration-text ul {
+  line-height: 40px;
+}
+
+.collaboration-button {
+  border: none; 
+  padding: 7px 22px 7px 22px;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: rgb(203, 56, 55);
+  margin-top: 15px;
+  font-size: 10pt;
+  color: white;
+
+}
+
+.whatis {
+  position: relative;
+  background-image: url(./images/forklift.svg);
+  height: 450px;
+  color: white;
+
+}
+
+.whatis-text {
+  position: absolute;
+  width: 350px; 
+  top: 33%;
+  left: 15%;
+  
+}
+
+.whatis-button {
+  border: none; 
+  padding: 7px 22px 7px 22px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 10pt;
+  background-color: rgb(49, 68, 88);
+  color: white;
+
+}
+
+
+.end {
+  height: 450px;
+}
+
+.end-title {
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(83, 88, 98);
+}
+
+.end-title p {
+  margin-top: 30px;
+}
+
+.end-container {
+  width: 1000px;
+  position: relative;
+  left: 15%;
+  bottom: 13%;
+  padding: 75px 0; 
+  text-align: center;
+  color: rgb(135, 145, 156);
+}
+
+.end-container p {
+  margin-top: 10px;
+}
+
+.end-container h3 {
+  margin-top: 10px;
+}
+
+.end-container a {
+  text-decoration: none;
+  color:rgb(208, 74, 73);
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 25%; 
+  padding: 30px;
+}
